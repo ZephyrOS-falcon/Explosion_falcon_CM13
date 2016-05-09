@@ -1403,7 +1403,11 @@ fail:
 	return -EINVAL;
 }
 
+<<<<<<< HEAD
 static struct of_device_id msm_rpm_match_table[] =  {
+=======
+static struct of_device_id msm_rpm_match_table[] = {
+>>>>>>> 9e6fe9e... arm/mach-msm: fix some section mismatches with new source base
 	{.compatible = "qcom,rpm-smd"},
 	{},
 };
