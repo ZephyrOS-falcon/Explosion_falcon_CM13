@@ -844,7 +844,4 @@ static int __init vfp_rootfs_init(void)
 }
 
 core_initcall(vfp_init);
-<<<<<<< HEAD
 rootfs_initcall(vfp_rootfs_init);
-=======
->>>>>>> f797560... ARM: move VFP init to an earlier boot stage
