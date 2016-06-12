@@ -2177,11 +2177,7 @@ static int __mdss_fb_display_thread(void *data)
 				mfd->index);
 
 	while (1) {
-<<<<<<< HEAD
-		ret = wait_event_interruptible(mfd->commit_wait_q,
-=======
 		wait_event_interruptible(mfd->commit_wait_q,
->>>>>>> 3224378... msm: use interruptible threads to decrease overall load_avg.
 				(atomic_read(&mfd->commits_pending) ||
 				 kthread_should_stop()));
 
